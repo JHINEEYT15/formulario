@@ -1,0 +1,91 @@
+<html>
+
+<head>
+    <title>Formulario</title>
+</head>
+
+<body>
+    <h1>Formulario Evelin Gualan</h1>
+    <form>
+        <div class="form-container">
+            <div>
+                <label class="form-label" for="nombres"><b>Nombres:</b></label>
+                <input class="form-input" type="text" id="nombres" name="nombres"><br><br>
+            </div>
+            <div>
+                <label class="form-label" for="edad"><b>Edad:</b></label>
+                <input class="form-input" type="number" id="edad" name="edad"><br><br>
+            </div>
+            <div>
+                <label class="form-label" for="Clave"><b>Ingrese su Clave:</b></label>
+                <input class="form-input" type="password" id="Clave" name="Clave"><br><br>
+            </div>
+            <div>
+                <label class="form-label" for="fecha"><b>Fecha:</b></label>
+                <input class="form-input" type="date" id="fecha" name="fecha"><br><br>
+            </div>
+            <div>
+                <label class="form-label" for="correo"><b>Correo:</b></label>
+                <input class="form-input" type="email" id="correo" name="correo"><br><br>
+            </div>
+            <div>
+                <label class="form-label" for="solo-lectura"><b>Solo lectura:</b></label>
+                <input class="form-input" type="text" id="solo-lectura" name="solo-lectura" readonly><br><br>
+            </div>
+        </div>
+        <b>Oculto:</b>
+        <p>
+            <b> textarea:</b>
+            <textarea name="mytextarea" rows="10" cols="50"></textarea>
+            <input type="hidden" name="hiddentextarea" value="">
+    </form>
+    <b>Lista de Colores:</b>
+    <select id="color" name="color" required>
+        <option value="azul">Azul</option>
+        <option value="rojo">Rojo</option>
+        <option value="negro">negro</option>
+        <option value="verde">Verde</option>
+    </select><br><br>
+    <b>Radio:</b>
+    <p>
+        <input type="radio" name="language" id="html" value="HTML">
+        <label for="html">HTML</label><br>
+        <input type="radio" name="language" id="css" value="CSS">
+        <label for="css">CSS</label><br>
+        <input type="radio" name="language" id="javascript" value="JAVASCRIPT">
+        <label for="javascript">JAVASCRIPT</label><br><br>
+
+        <b>Check:</b>
+    <p>
+        <input type="checkbox" id="html" name="language" value="html">
+        <label for="html">HTML</label><br>
+        <input type="checkbox" id="css" name="language" value="css">
+        <label for="css">CSS</label><br>
+        <input type="checkbox" id="javascript" name="language" value="javascript">
+        <label for="javascript">JAVASCRIPT</label><br><br><br>
+
+        <b>Subir Archivo:</b>
+        <input type="file" id="fileInput" name="fileInput"><br><br><br>
+
+        <b>Color:</b>
+        <input type="color" id="colorInput" name="colorInput" value="#ff0000"><br><br><br>
+
+        <b>celular:</b>
+        <input type="number" id="telefono" name="telefonoinput"
+            placeholder="Ingrese solo números"><br><br><br>
+
+        <b>Maxlenght:</b>
+        <input type="number" id="maxLengthInput" name="maxLengthInput"><br><br>
+
+        <b> Max:</b>
+        <input type="number" id="maxInput" name="maxInput" min="0" max="100"><br><br>
+
+        <b>Resetear:</b>
+        <input type="reset" value="Submit"><br><br>
+
+        <input type="submit" value="Enviar">
+
+        </form>
+</body>
+
+</html>
